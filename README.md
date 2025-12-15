@@ -6,11 +6,11 @@ Mise en place du fichier docker-compose.yml
 
 Lancement de node-red
 
-![Lancement node red] (images/lancement.PNG)
+![Lancement node red](images/lancement.PNG)
 
 Containers Docker
 
-![container docker] (images/containers.PNG)
+![container docker](images/containers.PNG)
 
 Récupération des données CO2 via MQTT depuis le topic ciel/a120/co2/co21 sur le broker Mosquitto.
 
@@ -24,4 +24,12 @@ Premier flow :
 (en bleu) Utilisation d’un histogramme et d’une jauge pour pour présenter les données après les avoir traitées.
 (en vert) Debug pour voir à quoi ressemble les données que je reçois afin de pouvoir remplir le code fonction
 
-[!flow] (images/flow.PNG)
+![flow](images/flow.PNG)
+
+Réception du payload en format JSON
+
+![donnees](images/data.PNG)
+
+Interface graphique node-red
+
+![Interface](images/interface.PNG)
